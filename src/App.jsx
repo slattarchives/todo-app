@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
-import AddTodoForm from '/home/slattarchives/pp/src/components/AddTodoForm.jsx';
-import TodoFilters from '/home/slattarchives/pp/src/components/TodoFilters.jsx';
-import TodoItem from '/home/slattarchives/pp/src/components/TodoItem.jsx';
+import AddTodoForm from './components/AddTodoForm.jsx';
+import TodoFilters from './components/TodoFilters.jsx';
+import TodoItem from './components/TodoItem.jsx';
 function App() {
  // Состояние для списка задач
  const [todos, setTodos] = useState(() => {
